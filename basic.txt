@@ -1,0 +1,11 @@
+# Basic Python Program
+
+# 1. Input from user
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+# 2. Processing
+years_until_100 = 100 - age
+
+# 3. Output
+print(f"Hello, {name}! You will turn 100 years old in {years_until_100} years.")
